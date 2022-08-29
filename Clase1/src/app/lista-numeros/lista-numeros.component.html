@@ -1,0 +1,6 @@
+<h3>Lista de Números</h3>
+<table>
+    <tr *ngFor="let numero of lista">
+        <app-detalle-numero [numero]="numero" (onDelete)="borarNumero($event)"></app-detalle-numero>
+    </tr>
+</table>

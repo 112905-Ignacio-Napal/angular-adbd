@@ -1,0 +1,5 @@
+<button (click)="mostrarMensaje($event)" id="rojo" class="rojo">Rojo</button>
+<button (click)="mostrarMensaje($event)" id="amarillo" class="amarillo">Amarillo</button>
+<button (click)="mostrarMensaje($event)" id="verde" class="verde">Verde</button>
+
+<p [class]="classColor">{{mensaje}}</p>

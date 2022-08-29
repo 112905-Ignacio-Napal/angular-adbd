@@ -1,0 +1,10 @@
+table,
+td {
+  border: 1px solid black;
+}
+.menor {
+  background-color: lightblue;
+}
+.mayor {
+  background-color: lightsalmon;
+}

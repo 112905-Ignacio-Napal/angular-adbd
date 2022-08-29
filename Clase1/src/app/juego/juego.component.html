@@ -1,0 +1,7 @@
+<div class="flex-column">
+    <button (click)="tirarDados()">Tirar dados</button>
+    <div class="flex-row">
+        <app-dado *ngFor="let dado of dadosEnJuego; let i = index" [imagePath]="dadosEnJuego[i].imagePath"></app-dado>
+    </div>
+    <p>{{mensaje}}</p>
+</div>

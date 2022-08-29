@@ -1,0 +1,15 @@
+button {
+  width: 8rem;
+  height: 4rem;
+  font-size: 1.2rem;
+}
+
+.rojo {
+  background-color: red;
+}
+.amarillo {
+  background-color: yellow;
+}
+.verde {
+  background-color: green;
+}

@@ -1,0 +1,15 @@
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  justify-content: center;
+}
+div {
+  margin-top: 1rem;
+}
+button {
+  width: 50%;
+  align-self: center;
+}

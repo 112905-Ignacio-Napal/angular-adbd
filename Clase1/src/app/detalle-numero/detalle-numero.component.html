@@ -1,0 +1,5 @@
+<tr>
+    <td [class]="{menor:numero<500,mayor:numero >= 500}">{{numero}}<span *ngIf="numero > 500">*</span></td>
+    <td [class]="{menor:numero<500,mayor:numero >= 500}">{{numero}}<span *ngIf="numero > 500">*</span></td>
+    <td><button (click)="borarNumero()">Borrar</button></td>
+</tr>
